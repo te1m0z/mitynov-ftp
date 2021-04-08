@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Arimo';
+    src: url("../fonts/Arimo/Arimo.eot");
+    src: url("../fonts/Arimo/Arimo.ttf") format('truetype');
+    src: url("../fonts/Arimo/Arimo.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu Regular';
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.eot");
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format('truetype');
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.woff") format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu Light';
+    src: url("../fonts/Ubuntu/Ubuntu-Light.eot");
+    src: url("../fonts/Ubuntu/Ubuntu-Light.ttf") format('truetype');
+    src: url("../fonts/Ubuntu/Ubuntu-Light.woff") format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu Medium';
+    src: url("../fonts/Ubuntu/Ubuntu-Medium.eot");
+    src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf") format('truetype');
+    src: url("../fonts/Ubuntu/Ubuntu-Medium.woff") format('woff');
+    font-style: normal;
+}
+
+@mixin Arimo {
+    font-family: "Arimo";
+}
+@mixin Ubuntu-reg {
+    font-family: 'Ubuntu Regular';
+}
+@mixin Ubuntu-light {
+    font-family: 'Ubuntu Light';
+}
+@mixin Ubuntu-medium {
+    font-family: 'Ubuntu Medium';
+}
