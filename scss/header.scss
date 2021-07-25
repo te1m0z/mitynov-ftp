@@ -1,20 +1,3 @@
-$green: #90A743;
-$orange: #E49437;
-$black: #61615F;
-
-@mixin Arimo {
-    font-family: "Arimo";
-}
-@mixin Ubuntu-reg {
-    font-family: 'Ubuntu Regular';
-}
-@mixin Ubuntu-light {
-    font-family: 'Ubuntu Light';
-}
-@mixin Ubuntu-medium {
-    font-family: 'Ubuntu Medium';
-}
-
 .header {
     width: 100%;
     height: 362px;
