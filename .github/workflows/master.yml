@@ -1,11 +1,9 @@
-on:
-  push:
-    branches:
-      - master
-name: Deploy files to my site
+name: Deploy
+
+on: workflow_dispatch
+      
 jobs:
-  web-deploy:
-    name: Deploy
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Get last code
